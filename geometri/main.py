@@ -1,6 +1,6 @@
 # buat class dlu, baru object
 # class tipe data, object var/nama = manusia , fauzan&farhan
-from geometri.Triangle import Triangle
+from geometri.triangle import Triangle
 from geometri.rectangle import Rectangle
 
 print('menggunakan OOP')
