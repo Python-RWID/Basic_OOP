@@ -17,4 +17,11 @@ B1 = BangunRuang()
 print(B1.info())
 print(B1.result_wide())
 
-# kemampuan object untuk merespon berbeda, terhadap pemanggilan method yang sama
+# polymorphism kemampuan object untuk merespon berbeda, terhadap pemanggilan method yang sama
+daftar_bangun_ruang = []
+daftar_bangun_ruang.append(P1)
+daftar_bangun_ruang.append(T1)
+
+print(f'\npolymorphism')
+for BangunRuang in daftar_bangun_ruang:
+    print(BangunRuang.info())
